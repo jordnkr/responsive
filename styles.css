@@ -1,0 +1,142 @@
+body {
+	background-image:url('tactile_noise.png');
+	background-repeat:repeat-y repeat-x;
+	font-family: 'Roboto', sans-serif;
+}
+
+select {
+	background: #E6E6E6;
+	color: black;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding: 1px 1px 1px 0px;
+	border: solid 1px black;
+	box-shadow: 0 0 5px black;
+	text-align: center;
+	width: 200px;
+}
+
+select option {
+	padding-right: 48px; /* Won't work in Chrome (can't style these) */
+	-webkit-padding-right: 48px;
+	text-align: left;
+}
+
+nav {
+	text-align: left;
+}
+
+#resizable { 
+	padding-bottom: 20px;
+	padding-right: 2px;
+	width: 100%;
+	height: 768px;
+	-webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#resizable h3 { 
+	text-align: center; margin: 0;
+}
+
+.ui-resizable-helper { 
+	border: 5px solid gray;
+}
+
+
+.urlInput::-webkit-input-placeholder {
+   color: gray;
+}
+
+#bigUrl {
+	width: 35%;
+	font-size: 26px;
+	padding: 10px;
+	border: solid 1px gray;
+	-webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+	box-shadow: inset 0 0 5px gray;
+	background: #fff;
+}
+
+.urlInput {
+	width: 20%;
+	background: #E6E6E6;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding: 2px 6px;
+	border: solid 1px black;
+	box-shadow: 0 0 5px black;
+}
+
+/* Remove button padding in FF */
+.btn::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.btn {
+	font-family: 'Roboto', sans-serif;
+	padding: 2px 6px;
+	font-size: 16px;
+	border: solid 1px black;
+	box-shadow: 0 0 5px black;
+	background: #E6E6E6;
+}
+
+.btn:active {
+	box-shadow: inset 0 0 3px black;
+}
+
+#openingWindow {
+	text-align: center;
+	color: white;
+}
+
+#urlForm {
+	width: 100%;
+	margin-top: -85px;
+}
+
+#goBtn {
+	margin-right: 15px;
+}
+
+#loadedForm {
+	display: inline;
+}
+
+#entranceBtn {
+	margin-top: 25px;
+	padding: 15px 25px;
+	font-size: 20px;
+}
+
+#entranceBtn:active {
+	box-shadow: inset 0 0 6px black;
+}
+
+#title {
+	font-size: 150px;
+	font-weight: 700;
+	text-shadow: 0px 0px 15px black;
+}
+
+#disclaimer {
+	position: fixed;
+	bottom: 0;
+		width: 99%;
+}
+
+#disclaimer p {
+	text-align: center;
+	font-size: 10px;
+	font-weight: 400;
+	color: white;
+}
+
+#affiliation {
+	margin-bottom: -8px;
+}

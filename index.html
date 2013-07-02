@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Responsive - How many resolutions do you support?</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="./styles.css">
+		<script type='text/javascript' src="./main.js"></script>
+	</head>
+	<body>
+		<div id="mainContent">
+			<nav>
+				<form id="loadedForm">
+					<input type="text" placeholder="Enter a URL here..." class="urlInput" id="loadedUrl"></input>
+					<input type="submit" class="btn" value="Go" id="goBtn"></input>
+				</form>
+				<select id="sizeList">
+					<option id="customOption" value=""></option>
+					<option value="320x480">320x480</option>
+					<option value="480x800">480x800</option>
+					<option value="640x960">640x960</option>
+					<option value="1024x768">1024x768</option>
+					<option value="1366x768">1366x768</option>
+					<option value="1440x900">1440x900</option>
+					<option value="1600x900">1600x900</option>
+					<option value="1920x1080">1920x1080</option>
+				</select>
+				<input type="submit" class="btn" id="rotateBtn" value="Rotate"></input>
+			</nav>
+			<div id="resizable"></div>
+		</div>
+		<div id="openingWindow">
+			<h1 id="title">Responsive</h1>
+			<form id="urlForm">
+				<div>
+					<input type="text" id="bigUrl"></input>
+				</div>
+				<input type="submit" class="btn" id="entranceBtn" value="Show View"></input>
+			</form>
+			<p>Enter a URL to see how the website reacts to different screen sizes</p>
+		</div>
+		<div id="disclaimer">
+			<p id="affiliation">The creators of this site have no affiliation with the Skeleton framework or its creators. Credit to subtlepatterns.com for the background image.</p>
+			<p>Responsive is a prototype/proof-of-concept piece of software, and is not intended to be used as anything other than such. It may not work as intended with certain websites, as some websites
+				do not allow their content to be displayed in the manner that this tool needs. Users of this site agree that the authors or copyright holders of this site are not liable for any claim, damages, or other liability in connection with this site or any site accessed from it.</p>
+		</div>
+	</body>
+</html>
